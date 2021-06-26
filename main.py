@@ -79,7 +79,7 @@ player2_score=0
 font = pygame.font.Font("freesansbold.ttf",72)
 font_of_help = pygame.font.Font("freesansbold.ttf",16)
 #timer
-score_time = None
+score_time = 1
 help_timer = pygame.time.get_ticks()
 mode_timer = None
 def help_show():
